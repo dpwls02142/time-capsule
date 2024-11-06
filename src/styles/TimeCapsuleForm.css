@@ -1,0 +1,138 @@
+.capsule-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.title-input {
+  font-weight: 600;
+  font-size: 1.6rem;
+  border: none;
+  margin: 4px 0px 20px 0px;
+  background: none;
+}
+
+.title-input:focus {
+  outline: none;
+  border: none;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.calendar-toggle-button,
+.upload-button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.calendar-toggle-button i,
+.upload-button i {
+  margin-right: 5px;
+}
+
+.image-upload-container {
+  display: flex;
+  align-items: center;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.upload-button:hover {
+  background-color: #e6e6e6;
+  transition: 0.2s;
+}
+
+.selected-image {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.remove-image {
+  margin-left: 5px;
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.form-textarea {
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 250px;
+  margin-bottom: 20px;
+  resize: none;
+  overflow-y: auto;
+}
+
+.submit-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #3b82f6;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #004a98;
+}
+
+.calendar-toggle-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.calendar-toggle-button:hover {
+  background-color: #e6e6e6;
+  transition: 0.2s;
+}
+
+.react-calendar__tile--disabled {
+  background-color: #f0f0f0;
+  color: #ababab;
+  pointer-events: none;
+}
+
+.calendar-popup {
+  position: absolute; 
+  top: 100%; 
+  left: 0; 
+  transform: translateX(0); 
+  background-color: #fff; 
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px; 
+  width: 350px; 
+  padding: 10px;
+  border-radius: 12px;
+  overflow: hidden; 
+}
