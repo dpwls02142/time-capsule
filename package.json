@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "homepage": "https://dpwls02142.github.io/time-capsule/"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "moment": "^2.30.1",
