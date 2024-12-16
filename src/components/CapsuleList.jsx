@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import '../styles/CapsuleList.css';
-import CapsulePopup from './CapsulePopup';
-import Alert from './Alert';
+import CapsulePopup from './CapsulePopup.jsx';
+import Alert from './Alert.jsx';
 
 const CapsuleList = ({ capsules, deleteCapsule }) => {
   // 삭제 시 선택된 캡슐의 인덱스

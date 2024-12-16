@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import TimeCapsuleForm from './components/TimeCapsuleForm';
-import CapsuleList from './components/CapsuleList';
-import NavBar from './components/NavBar';
-import Wave from './components/Wave';
-import IntroSection from './components/IntroSection';
+import TimeCapsuleForm from './components/TimeCapsuleForm.jsx';
+import CapsuleList from './components/CapsuleList.jsx';
+import NavBar from './components/NavBar.jsx';
+import Wave from './components/Wave.jsx';
+import IntroSection from './components/IntroSection.jsx';
 import './styles/App.css';
 
 const App = () => {

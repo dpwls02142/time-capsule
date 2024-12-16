@@ -3,7 +3,7 @@ import '../styles/TimeCapsuleForm.css';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import moment from "moment";
-import Alert from './Alert';
+import Alert from './Alert.jsx';
 
 function TimeCapsuleForm({ addCapsule }) {
 
