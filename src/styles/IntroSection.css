@@ -66,9 +66,10 @@ p {
     padding-left: 3%;
   }
   
-  .svg-container {
+  .model-container {
     margin-top: -150px;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -81,15 +82,20 @@ p {
   .text-section {
     padding-right: 0;
     padding-left: 0;
-    margin-bottom: 20px;
-  }
-
-  .svg-container {
-    justify-content: center;
-    margin-top: auto;
+    margin-bottom: 50px;
   }
 
   .intro-title {
     padding: 40px 0 6px 0;
+  }
+
+  .model-container {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    margin-left: auto; 
+    margin-right: auto;
   }
 }
