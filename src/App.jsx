@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import TimeCapsuleForm from './components/TimeCapsuleForm.jsx';
 import CapsuleList from './components/CapsuleList.jsx';
 import NavBar from './components/NavBar.jsx';
 import Wave from './components/Wave.jsx';
 import IntroSection from './components/IntroSection.jsx';
 import './styles/App.css';
+import { Helmet } from 'react-helmet-async';
 
 const App = () => {
   const [capsules, setCapsules] = useState([]);
@@ -32,6 +33,17 @@ const App = () => {
 
   return (
     <>
+      <Helmet prioritizeSeoTags>
+          <title>Message Bottle</title>
+          <meta property="og:title" content="A very important title"/>
+          <meta property="og:url" content="https://dpwls02142.github.io/time-capsule/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:description" content="당신의 소중한 추억과 감정을 메시지 보틀에 담아
+                                                  추후에 다시 열어볼 수 있는 사이트 입니다.
+                                                  마치 바다를 떠도는 유리병 속 편지처럼
+                                                  오늘의 생각과 마음을 미래의 자신에게 보내보세요." />
+          <meta property="og:image" content="./src/assets/message_bottle.jpg"/>
+      </Helmet>
       <div className='nav-bar'>
         <NavBar />
       <Wave />
