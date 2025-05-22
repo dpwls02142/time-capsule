@@ -35,7 +35,7 @@ const App = () => {
     <>
       <Helmet prioritizeSeoTags>
           <title>Message Bottle</title>
-          <meta property="og:title" content="A very important title"/>
+          <meta property="og:title" content="Message Bottle"/>
           <meta property="og:url" content="https://dpwls02142.github.io/time-capsule/" />
           <meta property="og:type" content="website" />
           <meta property="og:description" content="당신의 소중한 추억과 감정을 메시지 보틀에 담아
