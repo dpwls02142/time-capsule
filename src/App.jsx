@@ -42,7 +42,7 @@ const App = () => {
                                                   추후에 다시 열어볼 수 있는 사이트 입니다.
                                                   마치 바다를 떠도는 유리병 속 편지처럼
                                                   오늘의 생각과 마음을 미래의 자신에게 보내보세요." />
-          <meta property="og:image" content="./src/assets/message_bottle.jpg"/>
+          <meta property="og:image" content="https://dpwls02142.github.io/time-capsule/message_bottle.jpg"/>
       </Helmet>
       <div className='nav-bar'>
         <NavBar />
